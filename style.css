@@ -1,0 +1,115 @@
+
+html {
+  margin: 0;
+  overscroll-behavior: none;
+  background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+
+}
+
+  body {
+    background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ .nav-background {
+    background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.top:hover {
+
+  border-bottom: 1px solid aquamarine;
+  padding-bottom: 0px;
+}
+
+.bottom:hover {
+  text-decoration: underline;
+  text-decoration-color: aquamarine;
+}
+
+.navbar-brand {
+    font-size: x-large;
+}
+  
+.title {
+    color: #F5EFE7;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
+
+  .navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+ #hero {
+  min-height: 100vh;
+ }
+
+ .hover-effect:hover {
+  opacity: 0.75;
+ }
+
+ .icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button-hover {
+  background-color: #071952;
+  border-color: #071952;
+}
+
+.button-hover:hover {
+  background-color:#071952;
+  color: aquamarine;
+  border-color: aquamarine;
+}
+
+.Ryan-hover:hover {
+  color: aquamarine;
+}
+
