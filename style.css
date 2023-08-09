@@ -5,7 +5,8 @@ html {
   background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
   background-size: 180% 180%;
   animation: gradient-animation 8s ease infinite;
-
+  overflow: hidden;
+  height: 100%;
 }
 
   body {
@@ -14,6 +15,8 @@ html {
     animation: gradient-animation 5s ease infinite;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;  
+    overflow: auto;
+    height: 100%; 
   }
   
   @keyframes gradient-animation {
