@@ -78,6 +78,8 @@ html {
 
  .hover-effect:hover {
   opacity: 0.75;
+  transform: translateY(-10px);
+  transition: 0.25s;
  }
 
  .icon-square {
