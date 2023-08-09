@@ -12,6 +12,7 @@ html {
     background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
+    font-family: 'Nunito Sans', sans-serif;
   }
   
   @keyframes gradient-animation {
