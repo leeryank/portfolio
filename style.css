@@ -4,7 +4,7 @@ html {
   overscroll-behavior: none;
   background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
   background-size: 180% 180%;
-  animation: gradient-animation 8s ease infinite;
+  animation: gradient-animation 4s ease infinite;
   overflow: hidden;
   height: 100%;
 }
@@ -12,7 +12,7 @@ html {
   body {
     background: linear-gradient(300deg, #071952, #0A4D68, #4F709C);
     background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
+    animation: gradient-animation 4s ease infinite;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;  
     overflow: auto;
