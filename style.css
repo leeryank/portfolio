@@ -15,7 +15,7 @@ html {
     animation: gradient-animation 4s ease infinite;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;  
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%; 
   }
   
