@@ -159,3 +159,16 @@ html {
   font-size: xx-large; }
   100% { opacity: 1; }
 }
+
+.wave-icon {
+  width: 60px;
+  margin-bottom: 12px;
+}
+
+/* Adjust size for mobile screens */
+@media (max-width: 768px) {
+  .wave-icon {
+      width: 35px; /* Adjust this size as needed */
+      margin-bottom: 8px;
+  }
+}
