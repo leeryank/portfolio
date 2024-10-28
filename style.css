@@ -184,3 +184,13 @@ html {
     width: 20px;
   }
 }
+
+.phone-icon {
+  width: 17px;
+}
+
+@media (max-width: 768px) {
+  .phone-icon {
+    width: 12px;
+  }
+}
