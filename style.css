@@ -172,3 +172,15 @@ html {
       margin-bottom: 8px;
   }
 }
+
+.emoji-icon {
+  height: 25px;
+  width: 25px;
+}
+
+@media (max-width: 768px) {
+  .emoji-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
