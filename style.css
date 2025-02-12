@@ -164,19 +164,6 @@ html {
   100% { opacity: 1; }
 }
 
-.wave-icon {
-  width: 60px;
-  margin-bottom: 12px;
-}
-
-/* Adjust size for mobile screens */
-@media (max-width: 768px) {
-  .wave-icon {
-      width: 35px; /* Adjust this size as needed */
-      margin-bottom: 8px;
-  }
-}
-
 .emoji-icon {
   height: 25px;
   width: 25px;
@@ -208,4 +195,15 @@ html {
 .show {
   opacity: 1;
   transform: translateY(0);
+}
+
+#typewriter::after {
+  content: "|";
+  color:#EEE3CB;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
 }

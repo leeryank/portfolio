@@ -18,3 +18,25 @@ const observer = new IntersectionObserver((entries) => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const text = "Hi, I'm Ryan!"; // The text to animate
+  const speed = 150; // Typing speed
+  let index = 0;
+
+  const typewriterElement = document.getElementById("typewriter");
+  const handIcon = "👋🏼 "; // Ensure the hand is always there
+
+  function typeWriter() {
+      if (index < text.length) {
+          typewriterElement.innerHTML = handIcon + text.substring(0, index + 1); // Keep hand and update text
+          index++;
+          setTimeout(typeWriter, speed);
+      }
+  }
+
+  typeWriter(); // Start animation
+});
+
+
+
