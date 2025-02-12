@@ -188,13 +188,13 @@ html {
 
 .hidden {
   opacity: 0;
-  transform: translateY(50px);
-  transition: all 1s ease-out;
+  transform: translateY(50px) scale(0.95); /* Starts smaller */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .show {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 #typewriter::after {
