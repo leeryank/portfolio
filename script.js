@@ -21,7 +21,7 @@ const observer = new IntersectionObserver((entries) => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const text = "Hi, I'm Ryan!"; // The text to animate
-  const speed = 150; // Typing speed
+  const speed = 175 // Typing speed
   let index = 0;
 
   const typewriterElement = document.getElementById("typewriter");
