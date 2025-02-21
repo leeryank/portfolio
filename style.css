@@ -52,13 +52,13 @@ html {
 
 .top:hover {
 
-  border-bottom: 1px solid aquamarine;
+  border-bottom: 1px solid #bbfce7;
   padding-bottom: 0px;
 }
 
 .bottom:hover {
   text-decoration: underline;
-  text-decoration-color: aquamarine;
+  text-decoration-color: #bbfce7;
 }
 
 .navbar-brand {
@@ -117,13 +117,14 @@ html {
 }
 
 .button-hover:hover {
-  background-color:#071952;
-  color: aquamarine;
-  border-color: aquamarine;
+  background-color: #071952;
+  color: #bbfce7;
+  border-color: #bbfce7;
+  box-shadow: 0 0 12px rgba(187, 252, 231, 0.8);
 }
 
 .Ryan-hover:hover {
-  color: aquamarine;
+  color: #bbfce7;
 }
 
 *, html {
